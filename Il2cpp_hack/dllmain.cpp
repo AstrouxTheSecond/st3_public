@@ -21,7 +21,7 @@ void MainThread()
     MH_CreateHook(reinterpret_cast<LPVOID*>(ST3::Modules::GameAssembly + ST3::Offsets::UnityEngine::Camera::get_fieldOfView), &Hooks::get_fieldOfView, (LPVOID*)&Hooks::get_fieldOfView_org);
     MH_EnableHook(MH_ALL_HOOKS);
 
-    printf("Slendytubbies 3 Public Cheat - Astroux#4200\n\n");
+    printf("Slendytubbies 3 Public Cheat - astroux_st\n\n");
     printf("Press 'Insert' To Enable/Disable Speedhack\n");
     printf("Press 'Home' To Enable/Disable FOV Changer\n\n");
     printf("WARNING: DO NOT CLOSE THIS WINDOW, THE GAME WILL CRASH.\n");
